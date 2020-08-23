@@ -19,7 +19,7 @@ class SimulaDado():
                     print('Digite sim(S) ou não(n), por favor.')
                     resposta = input(self.pergunta)
             except:
-                print('Ocorreu um erro ao analisar sua resposta, por favor digite Sim (S) ou Não (N)')
+                print('Ocorreu um erro ao analisar sua resposta, por favor digite sim (s) ou não (n)')
 
 simulador = SimulaDado()
 simulador.inicio()
