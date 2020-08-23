@@ -20,6 +20,6 @@ class SimulaDado():
                     resposta = input(self.pergunta)
             except:
                 print('Ocorreu um erro ao analisar sua resposta, por favor digite sim (s) ou não (n)')
-
+                resposta = input(self.pergunta)
 simulador = SimulaDado()
 simulador.inicio()
